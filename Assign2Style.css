@@ -1,0 +1,41 @@
+html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
+
+    margin:0;
+    padding:0;
+}
+body{
+    position:relative;
+}
+#parent{
+    border:5px;
+    position:relative;
+    width:40%;
+    float: left;
+}
+.box{
+    min-height:100px;
+}
+#red{
+    background:#990026;
+    width:100%;
+    z-index: 9999;
+}
+#green{
+    background:#5fa7ad;
+}
+#blue{
+    background:#5f80ad;
+    float: left;
+    width:30%
+
+}
+#purple{
+    background:#c3b5d6;
+}
+#yellow{
+    background: #ffec8b;
+
+}
+.box{
+    min-height:100px;
+}
